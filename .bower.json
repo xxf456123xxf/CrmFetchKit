@@ -1,0 +1,37 @@
+{
+  "name": "CrmFetchKit",
+  "version": "3.3.2",
+  "authors": [
+    "thuld <thuld@outlook.com>"
+  ],
+  "description": "Library for Dynamics CRM that allows the execution of fetchxml-queries via JavaScript",
+  "main": "./build/CrmFetchKit.bundle.js",
+  "homepage": "https://github.com/thuld/CrmFetchKit",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thuld/CrmFetchKit.git"
+  },
+  "keywords": [
+    "SOAP",
+    "Dynamics",
+    "CRM",
+    "Dynamics CRM"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bluebird": "~2.6.4"
+  },
+  "devDependencies": {
+    "jquery": "1.11.2",
+    "chai": "~1.10.0",
+    "mocha": "~2.1.0",
+    "underscore": "~1.7.0"
+  }
+}
